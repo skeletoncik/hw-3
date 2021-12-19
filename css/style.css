@@ -1,0 +1,64 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.content {
+  background: url(../img/1614441107_28-p-natyurmort-na-temnom-fone-38.jpg)
+    no-repeat center center/cover;
+  align-items: center;
+  height: 100vh;
+}
+body {
+  background-color: rgb(0, 0, 0);
+}
+ul {
+  display: flex;
+  gap: 50px;
+  justify-content: center;
+}
+li {
+  color: rgb(255, 255, 255);
+  list-style: none;
+  line-height: 50px;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 20px;
+}
+ul li:hover {
+  background-color: rgb(92, 92, 92);
+}
+.content-name-photograph {
+  font-family: Open Sans;
+  font-style: italic;
+  position: absolute;
+  top: 300px;
+  text-align: center;
+  left: 400px;
+  font-size: 80px;
+  color: rgb(255, 255, 255);
+}
+.header-img-content {
+  padding-top: 30px;
+}
+/* footer */
+.footer-content {
+  height: 150px;
+  display: flex;
+  background-color: rgb(0, 53, 53);
+}
+.footer-panel-email-text {
+  color: rgb(109, 109, 255);
+  font: weight 10px;
+}
+.footer-panel {
+  color: rgb(255, 255, 255);
+}
+.footer-panel-ul {
+  margin-top: 50px;
+}
+footer img {
+  margin-top: 5px;
+  width: 30px;
+  height: 30px;
+}
